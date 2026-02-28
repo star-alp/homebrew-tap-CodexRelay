@@ -1,6 +1,6 @@
 cask "codexrelay" do
-  version "0.1.2"
-  sha256 "f99d759df37910d7616f0b7c2c6ea5d063c8ff9a0f7a2fecfb52b75dcbafd92a"
+  version "0.1.5"
+  sha256 "7cbb6638837b4f1ee27ae4e1a5eb75f5e9a216763f2084f0fe9e3b59a29593cd"
 
   url "https://github.com/Red-noblue/Codex_Relay/releases/download/v#{version}/CodexRelay_#{version}_aarch64.dmg",
       verified: "github.com/Red-noblue/Codex_Relay/"
@@ -12,4 +12,3 @@ cask "codexrelay" do
 
   app "CodexRelay.app"
 end
-
